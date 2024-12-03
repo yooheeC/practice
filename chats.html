@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - CocoaTalk</title>
+    <title>Chats - CocoaTalk</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -29,45 +29,29 @@
     <header class="screen_header">
         <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header-icons"> <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
 
     <main class="main-screen">
-        <div class="icon-row">
-                <div class="icon-row__icons"><span><i class="fa-solid fa-qrcode"></i>QR Code</span></div>
-                <div class="icon-row__icons"><span><i class="fa-solid fa-address-book"></i>Add by Contacts</span></div>
-                <div class="icon-row__icons"><span><i class="fa-regular fa-id-badge"></i>Add by ID</span></div>
-                <div class="icon-row__icons"><span><i class="fa-regular fa-envelope"></i>Invite</span></div>
-        </div>
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">Recommended Friends</h6>
-            <span class="no_recommended-friends">You have no recommended friends.</span>
-        </div>
-        <div>
-            <div class="open-chat">
-                <div class="open-chat__header">
-                    <h4>Open Chat</h4>
-                    <span>Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i></span>
-                </div>
-                <div class="open-post">
-                    <div class="open-post__column">
-                        <h5 class="open-post__title" >#BTS</h5>
-                        <h6 class="open-post__hastags">#bts#army#friends</h6>
-                        <div class="open-post__members">
-                            <img src="https://www.bu.edu/files/2024/08/Hey-BU-Blog-Headers-1529x1000.jpg" />
-                            <span class="open-post__members__count">802 members</span>
-                            <div class="divider"></div>
-                            <span class="open-post__member-status">Active</span>
-                        </div>
-                    </div>
-                    <div class="open-post__column">
-                        <div class="open-post__photo">                        <img src="https://www.bu.edu/files/2024/08/Hey-BU-Blog-Headers-1529x1000.jpg" />
-                            <div class="open-post__heart-count"> <i class="fa-solid fa-heart fa-xs"></i>
-                                <span>326</span></div>
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component_column">
+                    <img src="https://www.bu.edu/files/2024/08/Hey-BU-Blog-Headers-1529x1000.jpg"
+                        class="user-component__avatar user-component__avatar-xl" />
+                    <div class="user-component__text_profile">
+                        <h4 class="user-component__title">Yoohee</h4>
+                        <h6 class="user-component__subtitle">Hello Darkness my old friend</h6>
                     </div>
                 </div>
-        </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+        </a>
     </main>
 
     
@@ -79,7 +63,7 @@
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html">
                         <span class="nav__notification badge">1</span>
-                        <i class=" far fa-comment fa-2x"></i>
+                        <i class="fa-solid fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav__btn">

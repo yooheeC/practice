@@ -1,5 +1,6 @@
 .alt-header {
     padding: 0px;
+    margin-top: 15px;
     padding: var(--horizontal-space);
     margin-bottom: 15px;
     display: flex;
